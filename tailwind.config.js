@@ -3,17 +3,33 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: {
-          100: '#5F5B57'
-        },
-
-        pink: {
-          100: '#D17A91'
+        purple: {
+          100: '#94618E',
+          200: '#49274A',
+          900: '#343148'
         },
 
         white: {
-          100: '#E7E2DE'
+          100: '#F8EEE7',
+          200: '#F4DECB'
+        },
+
+        brown: {
+          100: '#3D362D'
+        },
+
+        orange: {
+          100: '#FF7E30'
+        },
+
+        grey: {
+          500: '#383838'
+        },
+
+        coral: {
+          100: '#FF6F61'
         }
+        
       },
 
       fontFamily: {
