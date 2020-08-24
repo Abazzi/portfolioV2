@@ -32,9 +32,18 @@ module.exports = {
         
       },
 
+      scale: {
+        '70': '.70'
+      },
+
       fontFamily: {
         'code': ['Inconsolata', 'sans-serif'],
         'body': ['"Didact Gothic"', 'sans-serif']
+      },
+
+      rotate: {
+        '15': '15deg',
+        '10': '10deg'
       }
     },
   },
