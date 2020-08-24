@@ -34,7 +34,7 @@
             </button>
           </div>
           <!--Nav menu items-->
-          <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto" id="navItems">
+          <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto animate__animated md:animate__fadeOut" id="navItems">
             <div class="text-sm lg:flex-grow">
               <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
                 About 
@@ -55,17 +55,18 @@
           </div>
       </nav>
 
-      <!--Profile Picture and text blurb-->
-      <section class="flex bg-grey-500 justify-center">
-        <div class="flex-1 text-center bg-grey-500 px-4 py-2 m-2">
-            <p class="text-coral-100 font-body text-4xl"><strong>Mobile Application Developer</strong></p>
-            <p class="text-white-200 font-body text-2xl">
-                Let's put some happy little bushes on the other side now. 
-                I really believe that if you practice enough you could paint the 'Mona Lisa' with a two-inch brush. </p>
-        </div>
-        <div class="flex-1 text-center bg-grey-500">
-            <img src="img/hhkbCommission.jpg" alt="profilePicture" class="rounded-md transform rotate-10 scale-70">
-        </div>
-      </section>
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-4  bg-grey-500">
+         <div class="text-white-200 items-center animate__animated animate__zoomIn">
+           <p class="text-2xl text-coral-100 text-center">Mobile</p>
+           <p class="text-2xl text-coral-100 text-center">Application</p>
+           <p class="text-2xl text-coral-100 text-center">Developer</p>
+           <p class="text-xl text-white-200 text-center">
+             I am a programmer specializing in Mobile Applications and Backend Desktop and Web development
+           </p>
+         </div>
+         <div class="text-white-200 items-center ">
+           <img src="img/hhkbCommission.jpg" class="rounded-md transform scale-70 rotate-10">
+          </div>
+       </div>
 </body>
 </html>
