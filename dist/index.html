@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Bazzi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    
+    <nav class="flex items-center justify-between flex-wrap bg-grey-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <!--Top Right Corner Text-->
+              <code class="text-white-200 font-code subpixel-antialiased text-4xl">
+               adam
+              </code>
+              <code class="text-white-200 font-code subpixel-antialiased text-4xl">
+                 . 
+              </code>
+              <code class="text-coral-100 font-code subpixel-antialiased text-4xl">
+                portfolio 
+              </code>
+              <code class="text-white-200 font-code subpixel-antialiased text-4xl">
+               () 
+              </code>
+        </div>
+        <!--Menu Hamburger Button-->
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded transition duration-200 ease-in-out border-coral-100 hover:text-white-200 hover:border-coral-100 hover:bg-coral-100" onclick="hideNavItems()">
+                <i class="material-icons text-white-200 ">menu</i>
+            </button>
+          </div>
+          <!--Nav menu items-->
+          <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto" id="navItems">
+            <div class="text-sm lg:flex-grow">
+              <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+                About 
+              </a>
+              <a href="#skills-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+                Skills 
+              </a>
+              <a href="#projects-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+                Projects 
+              </a>
+              <a href="#contact-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+                Contact 
+              </a>
+              <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+                Resume 
+              </a>
+            </div>
+          </div>
+      </nav>
+
+      <!--Profile Picture and text blurb-->
+      <section class="flex bg-grey-500 justify-center">
+        <div class="flex-1 text-center bg-grey-500 px-4 py-2 m-2">
+            <p class="text-coral-100 font-body text-4xl"><strong>Mobile Application Developer</strong></p>
+            <p class="text-white-200 font-body text-2xl">
+                Let's put some happy little bushes on the other side now. 
+                I really believe that if you practice enough you could paint the 'Mona Lisa' with a two-inch brush. </p>
+        </div>
+        <div class="flex-1 text-center bg-grey-500">
+            <img src="img/hhkbCommission.jpg" alt="profilePicture" class="rounded-md transform rotate-10 scale-70">
+        </div>
+      </section>
 </body>
 </html>

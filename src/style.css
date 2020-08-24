@@ -3,3 +3,13 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.show {
+    transition: opacity 400ms;
+ }
+
+.hide {
+    opacity: 0;
+  }
+  
+  
