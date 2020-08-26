@@ -10,64 +10,77 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body>
+<body class="bg-grey-500">
     <nav class="flex items-center justify-between flex-wrap bg-grey-500 p-6">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
             <!--Top Right Corner Text-->
-              <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-               adam
-              </code>
-              <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-                 @ 
-              </code>
-              <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-                portfolio 
-              </code>
-              <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
-                :~$
-              </code>
+            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+              adam
+            </code>
+            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+                @ 
+            </code>
+            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+              portfolio 
+            </code>
+            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
+              :~$ 
+            </code>
+            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
+              &nbsp;cd                
+            </code>
+
         </div>
-        <!--Menu Hamburger Button-->
-        <div class="block lg:hidden">
-            <button class="flex items-center px-3 py-2 border rounded transition duration-200 ease-in-out border-coral-100 hover:text-white-200 hover:border-coral-100 hover:bg-coral-100" onclick="hideNavItems()">
-                <i class="material-icons text-white-200 ">menu</i>
-            </button>
-          </div>
           <!--Nav menu items-->
-          <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto animate__animated md:animate__fadeOut" id="navItems">
-            <div class="text-sm lg:flex-grow">
-              <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-                About 
-              </a>
-              <a href="#skills-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-                Skills 
-              </a>
-              <a href="#projects-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-                Projects 
-              </a>
-              <a href="#contact-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-                Contact 
-              </a>
-              <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-                Resume 
-              </a>
-            </div>
+        <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto animate__animated md:animate__fadeOut" id="navItems">
+          <div class="text-sm lg:flex-grow">
+            <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+              About 
+            </a>
+            <a href="#skills-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+              Skills 
+            </a>
+            <a href="#projects-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+              Projects 
+            </a>
+            <a href="#contact-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+              Contact 
+            </a>
+            <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+              Resume 
+            </a>
+            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
+              
+            </code>
           </div>
+        </div>
       </nav>
 
+      <!--Profile Picture and Blurb-->
+      <section>
        <div class="grid grid-cols-1 md:grid-cols-1 bg-grey-500">
-         <div class="flex justify-center flex-wrap text-white-200 p-2">
+         <div class="flex justify-center flex-wrap text-white-200">
            <img src="img/hhkbCommission.jpg" class="stext-center self-auto rounded-md transform scale-70 rotate-10">
          </div>
 
-         <div class="p-32 text-grey-500 animate__animated animate__zoomIn">
-           <p class="text-2xl text-coral-100 text-center">Mobile Application Developer</p>
-           <p class="text-xl text-white-200 text-center">
-             I am a programmer specializing in Mobile Applications and Backend Desktop and Web development
-           </p>
+         <div class="p-4 text-coral-100 animate__animated animate__zoomIn">
+           <p class="text-center text-2xl font-body">Programmer <i class="text-white-200">&bull;</i> Comicbook Fan <i class="text-white-200">&bull;</i> Runs on coffee</p>
         </div>
 
        </div>
+      </section>
+
+      <div class="px-8">
+        <hr class="rounded text-coral-100 px-2 bg-grey-500">
+      </div>
+
+      <section class="grid grid-cols-1 md:grid-cols-3 bg-grey-500">
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+      </section>
+
 
 </body>
+</div>
 </html>

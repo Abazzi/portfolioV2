@@ -20812,12 +20812,19 @@ video {
           animation: bounce 1s infinite;
 }
 
+@use "@material/fab";
+
 .show {
   transition: opacity 400ms;
 }
 
 .hide {
   opacity: 0;
+}
+
+hr.rounded {
+  border-top: 8px solid #FF6F61;
+  border-radius: 5px;
 }
 
 @media (min-width: 640px) {
@@ -101451,5 +101458,3 @@ video {
             animation: bounce 1s infinite;
   }
 }
-  
-  
