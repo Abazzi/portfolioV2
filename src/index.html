@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Bazzi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.css">
     <script src="main.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 </head>
 <body class="bg-grey-500">
     <nav class="flex items-center justify-between flex-wrap bg-grey-500 p-6">
+        <!--Top Right Corner Text-->
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <!--Top Right Corner Text-->
             <code class="text-white-200 font-code subpixel-antialiased text-2xl">
               adam
             </code>
@@ -26,13 +26,10 @@
             <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
               :~$ 
             </code>
-            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
-              &nbsp;cd                
-            </code>
-
         </div>
-          <!--Nav menu items-->
-        <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto animate__animated md:animate__fadeOut" id="navItems">
+
+        <!--Nav menu items-->
+        <div class="w-full sm:block flex-grow lg:flex lg:items-center md:hidden lg:w-auto animate__animated md:animate__fadeOut">
           <div class="text-sm lg:flex-grow">
             <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
               About 
@@ -49,9 +46,6 @@
             <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
               Resume 
             </a>
-            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
-              
-            </code>
           </div>
         </div>
       </nav>
@@ -68,17 +62,46 @@
         </div>
 
        </div>
+
+
+        <div class="animate__animated animate__backOutDown md:hidden items-end relative h-24 w-24 bg-gray-400" id="navItems">
+              <button class="absolute inset-y-0 right-0 w-8  bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4 inline-block">
+                About
+              </button>
+              <button class="absolute inset-y-0 right-0 w-8 bg-white-200 hover:bg-coral-100 text-coral-100 hover:text-white-200 font-bold rounded-full transition duration-200 ease-in-out p-4">
+                Skills 
+              </button>
+              <button class="absolute inset-y-0 right-0 w-8 bg-white-200 hover:bg-coral-100 text-coral-100 hover:text-white-200 font-bold rounded-full transition duration-200 ease-in-out p-4">
+                Projects 
+              </button>
+              <button class="absolute inset-y-0 right-0 w-8 bg-white-200 hover:bg-coral-100 text-coral-100 hover:text-white-200 font-bold rounded-full transition duration-200 ease-in-out p-4">
+                Contact
+              </button>
+              <button class="absolute inset-y-0 right-0 w-8 bg-white-200 hover:bg-coral-100 text-coral-100 hover:text-white-200 font-bold rounded-full transition duration-200 ease-in-out p-4">
+                Resume 
+              </button>
+        </div>
+
+        <div class="absolute bottom-0 right-0 items-end p-10">
+            <button class="bg-white-200 hover:bg-coral-100 text-white hover:text-white-200 font-bold py-4 px-4 rounded-full text-right" onclick="hideNavItems()">
+              Menu
+            </button>
+        </div>
+
+      </div>
+
       </section>
 
+      <!--Divider-->
       <div class="px-8">
         <hr class="rounded text-coral-100 px-2 bg-grey-500">
       </div>
 
-      <section class="grid grid-cols-1 md:grid-cols-3 bg-grey-500">
+      <!-- <section class="grid grid-cols-1 md:grid-cols-3 bg-grey-500">
         <p>123</p>
         <p>123</p>
         <p>123</p>
-      </section>
+      </section> -->
 
 
 </body>

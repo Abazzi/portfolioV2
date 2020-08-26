@@ -4,8 +4,6 @@
 
 @tailwind utilities;
 
-@use "@material/fab";
-
 .show {
     transition: opacity 400ms;
 }
