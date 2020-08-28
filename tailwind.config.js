@@ -38,7 +38,7 @@ module.exports = {
 
       fontFamily: {
         'code': ['Inconsolata', 'sans-serif'],
-        'body': ['"Didact Gothic"', 'sans-serif']
+        'body': ['"B612"', 'sans-serif'],
       },
 
       rotate: {

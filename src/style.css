@@ -9250,7 +9250,7 @@ video {
 }
 
 .font-body {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: B612, sans-serif;
 }
 
 .font-hairline {
@@ -20812,19 +20812,12 @@ video {
           animation: bounce 1s infinite;
 }
 
-@use "@material/fab";
-
 .show {
   transition: opacity 400ms;
 }
 
 .hide {
   opacity: 0;
-}
-
-hr.rounded {
-  border-top: 8px solid #FF6F61;
-  border-radius: 5px;
 }
 
 @media (min-width: 640px) {
@@ -29488,7 +29481,7 @@ hr.rounded {
   }
 
   .sm\:font-body {
-    font-family: "Didact Gothic", sans-serif;
+    font-family: B612, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -49646,7 +49639,7 @@ hr.rounded {
   }
 
   .md\:font-body {
-    font-family: "Didact Gothic", sans-serif;
+    font-family: B612, sans-serif;
   }
 
   .md\:font-hairline {
@@ -69804,7 +69797,7 @@ hr.rounded {
   }
 
   .lg\:font-body {
-    font-family: "Didact Gothic", sans-serif;
+    font-family: B612, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -89962,7 +89955,7 @@ hr.rounded {
   }
 
   .xl\:font-body {
-    font-family: "Didact Gothic", sans-serif;
+    font-family: B612, sans-serif;
   }
 
   .xl\:font-hairline {
