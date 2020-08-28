@@ -9253,6 +9253,10 @@ video {
   font-family: "Didact Gothic", sans-serif;
 }
 
+.font-gangstergrotesk {
+  font-family: "Gangster Grotesk", sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -20812,19 +20816,12 @@ video {
           animation: bounce 1s infinite;
 }
 
-@use "@material/fab";
-
 .show {
   transition: opacity 400ms;
 }
 
 .hide {
   opacity: 0;
-}
-
-hr.rounded {
-  border-top: 8px solid #FF6F61;
-  border-radius: 5px;
 }
 
 @media (min-width: 640px) {
@@ -29489,6 +29486,10 @@ hr.rounded {
 
   .sm\:font-body {
     font-family: "Didact Gothic", sans-serif;
+  }
+
+  .sm\:font-gangstergrotesk {
+    font-family: "Gangster Grotesk", sans-serif;
   }
 
   .sm\:font-hairline {
@@ -49649,6 +49650,10 @@ hr.rounded {
     font-family: "Didact Gothic", sans-serif;
   }
 
+  .md\:font-gangstergrotesk {
+    font-family: "Gangster Grotesk", sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -69807,6 +69812,10 @@ hr.rounded {
     font-family: "Didact Gothic", sans-serif;
   }
 
+  .lg\:font-gangstergrotesk {
+    font-family: "Gangster Grotesk", sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -89963,6 +89972,10 @@ hr.rounded {
 
   .xl\:font-body {
     font-family: "Didact Gothic", sans-serif;
+  }
+
+  .xl\:font-gangstergrotesk {
+    font-family: "Gangster Grotesk", sans-serif;
   }
 
   .xl\:font-hairline {

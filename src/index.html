@@ -5,61 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Bazzi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/node_modules/animate.css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link rel="icon" href="img/favIcon.svg" type="image/gif" sizes="16x16"> 
 </head>
 <body class="bg-grey-500">
-    <nav class="flex items-center justify-between flex-wrap bg-grey-500 p-6">
-        <!--Top Right Corner Text-->
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-              adam
-            </code>
-            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-                @ 
-            </code>
-            <code class="text-white-200 font-code subpixel-antialiased text-2xl">
-              portfolio 
-            </code>
-            <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
-              :~$ 
-            </code>
-        </div>
 
-        <!--Nav menu items for large screens-->
-        <div class="w-full flex-grow lg:items-center lg:w-auto hidden lg:block">
-          <div class="text-sm lg:flex-grow">
-            <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-              About 
-            </a>
-            <a href="#skills-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-              Skills 
-            </a>
-            <a href="#projects-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-              Projects 
-            </a>
-            <a href="#contact-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-              Contact 
-            </a>
-            <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
-              Resume 
-            </a>
-          </div>
-        </div>
-      </nav>
 
+  <nav class="flex items-center justify-between flex-wrap bg-grey-500 p-6">
+    <!--Top Right Corner Text-->
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <!-- <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+          adam
+        </code>
+        <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+            @ 
+        </code>
+        <code class="text-white-200 font-code subpixel-antialiased text-2xl">
+          portfolio 
+        </code>
+        <code class="text-coral-100 font-code subpixel-antialiased text-2xl">
+          :~$ 
+        </code> -->
+        <img src="img/keycapmeNOGENJI.png" class="scale-70">
+    </div>
+
+    <!--Nav menu items for large screens-->
+    <div class="w-full flex-grow lg:items-center lg:w-auto hidden lg:block">
+      <div class="text-sm lg:flex-grow justify-end">
+        <a href="#about-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+          About 
+        </a>
+        <a href="#skills-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+          Skills 
+        </a>
+        <a href="#projects-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+          Projects 
+        </a>
+        <a href="#contact-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+          Contact 
+        </a>
+        <a href="#resume-header" class="block mt-4 lg:inline-block lg:mt-0 transition duration-200 ease-in-out text-white-200 text-xl hover:text-coral-100 mr-4">
+          Resume 
+        </a>
+      </div>
+    </div>
+  </nav>
       <!--Profile Picture and Blurb-->
       <section>
        <div class="grid grid-cols-1 md:grid-cols-1 bg-grey-500">
          <div class="flex justify-center flex-wrap text-white-200">
-           <img src="img/hhkbCommission.jpg" class="stext-center self-auto rounded-md transform scale-70 rotate-10">
+           <img src="img/hhkbCommission.jpg" class="text-center self-auto rounded-sm transform scale-70 rotate-10">
          </div>
-
-         <div class="p-4 text-white-200 animate__animated animate__zoomIn">
-           <p class="text-center text-2xl font-body">Programmer <i class="text-coral-100">&bull;</i> Comicbook Fan <i class="text-coral-100">&bull;</i> Runs on coffee</p>
-        </div>
-
        </div>
 
       <!--Divider-->
@@ -75,41 +71,46 @@
   </body>
 
   <!--FAB Button-->
-  <div class="fixed bottom-0 right-0 items-end pr-10 pb-10 lg:hidden">
-        <div class="flex flex-col md:hidden pb-2 items-center" id="navItems">
+  <div class="fixed bottom-0 right-0 items-end pr-8 pb-8 ">
+        <div class="flex flex-col md:hidden items-center" id="navItems">
             <div class="p-1">
-              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4">
+              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
                 About
               </button>
             </div>
             <div class="p-1">
-              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4">
+              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold full transition duration-200 ease-in-out p-4 rounded-sm">
                 Skills 
               </button>
             </div>
             <div class="p-1">
-              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4">
+              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
                 Projects 
               </button>
             </div>
             <div class="p-1">
-              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4">
+              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
                 Contact 
               </button>
             </div>
-            <div class="p-1">
-              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold font-body rounded-full transition duration-200 ease-in-out p-4">
+            <div class="p-1 pb-16">
+              <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
                 Resume 
               </button>
             </div>
         </div>
-
-        <button class="bg-white-200 hover:bg-coral-100 text-white hover:text-white-200 font-bold p-4 rounded-full text-right" onclick="hideNavItems()">
-          Menu
-        </button>
   </div>
 
-  <!--JavaScript Delclaration-->
+  <div class="fixed bottom-0 right-0 items-end pr-8 pb-8">
+    <div class="flex flex-col items-center">
+      <div class="p-1">
+        <button class="bg-white-200 hover:bg-coral-100 text-white hover:text-white-200 font-bold p-4 text-center rounded-sm" onclick="hideNavItems()">
+          Menu
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--Javascript Delclaration-->
   <script src="main.js"></script>
 
   </div>
