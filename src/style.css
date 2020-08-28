@@ -9250,11 +9250,7 @@ video {
 }
 
 .font-body {
-  font-family: "Didact Gothic", sans-serif;
-}
-
-.font-gangstergrotesk {
-  font-family: "Gangster Grotesk", sans-serif;
+  font-family: C800, sans-serif;
 }
 
 .font-hairline {
@@ -29485,11 +29481,7 @@ video {
   }
 
   .sm\:font-body {
-    font-family: "Didact Gothic", sans-serif;
-  }
-
-  .sm\:font-gangstergrotesk {
-    font-family: "Gangster Grotesk", sans-serif;
+    font-family: C800, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -49647,11 +49639,7 @@ video {
   }
 
   .md\:font-body {
-    font-family: "Didact Gothic", sans-serif;
-  }
-
-  .md\:font-gangstergrotesk {
-    font-family: "Gangster Grotesk", sans-serif;
+    font-family: C800, sans-serif;
   }
 
   .md\:font-hairline {
@@ -69809,11 +69797,7 @@ video {
   }
 
   .lg\:font-body {
-    font-family: "Didact Gothic", sans-serif;
-  }
-
-  .lg\:font-gangstergrotesk {
-    font-family: "Gangster Grotesk", sans-serif;
+    font-family: C800, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -89971,11 +89955,7 @@ video {
   }
 
   .xl\:font-body {
-    font-family: "Didact Gothic", sans-serif;
-  }
-
-  .xl\:font-gangstergrotesk {
-    font-family: "Gangster Grotesk", sans-serif;
+    font-family: C800, sans-serif;
   }
 
   .xl\:font-hairline {
