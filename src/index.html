@@ -5,7 +5,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Adam Bazzi - Mobile App Developer</title>
       <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Line Awesome CDN-->
       <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">    <link rel="icon" href="img/favIcon.svg" type="image/gif" sizes="16x16"> 
   </head>
@@ -37,16 +36,27 @@
       <div class="flex justify-center flex-wrap text-white-200">
         <img src="img/hhkbCommission.jpg" class="text-center self-auto rounded-sm transform scale-70 rotate-10">
       </div>
-      <div class="text-center text-2xl text-white-200 font-saira lg:hidden block">
+      <div class="text-center text-2xl text-white-200 font-saira lg:hidden block pb-12">
         Mobile Application Developer
       </div>
     </div>
     </section>
 
+    <!--About Me Section-->
+    <section>
+      <div class="flex mb-4 flex-grow">
+        <div class="w-1/3 bg-white-200 h-24 text-center font-saira text-2xl text-grey-500 ">
+              About Me
+        </div>
+        <div class="w-2/3 bg-coral-100 h-24 text-center font-body text-1xl text-grey-500">
+            Just a happy little shadow that lives in there. See. We take the corner of the brush and let it play back-and-forth. Tree trunks grow however makes them happy. Nature is so fantastic, enjoy it. Let it make you happy. We have a fantastic little sky! Everybody needs a friend.
+        </div>
+      </div>
+    </section>
 
-    <!--FAB Button-->
-    <div class="fixed bottom-0 right-0 items-end pr-6 pb-6 ">
-      <div class="flex flex-col items-center block" id="navItems">
+    <!--Navigation Buttons for FAB Button-->
+    <div class="fixed bottom-0 right-0 items-end pr-6 pb-6 hidden" id="navItems">
+      <div class="flex flex-col items-center">
           <div class=" pb-2">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm hover:underline">
               About
@@ -75,6 +85,7 @@
       </div>
   </div>
 
+    <!--Menu Fab Button-->
     <div class="fixed bottom-0 right-0 items-end pr-6 pb-6">
         <div class="flex flex-col items-center">
           <div class="">
