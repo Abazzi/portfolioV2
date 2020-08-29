@@ -13,20 +13,19 @@
 
     <nav class="bg-grey-500 p-6">
       <!--Top Right Corner Text-->
-      <div class="flex items-center justify-between text-white mr-6">
-          <p class="text-white-200 font-body subpixel-antialiased text-2xl">
-            adam bazzi
+      <div class="flex items-center justify-between">
+          <p class="text-white-200 subpixel-antialiased text-2xl font-saira">
+            ADAM BAZZI
           </p>
+        <div class="text-center text-2xl text-white-200 lg:block hidden font-saira">
+          Mobile Application Developer
+        </div>
           <div class="">
-            <button class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm">
-              <a href="https://github.com/Abazzi">
+            <button onclick="location.href='https://www.github.com/Abazzi'" class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
                 <i class="lab la-github-alt"></i>
-              </a>
             </button>
-            <button class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm">
-              <a href="https://www.linkedin.com/in/adam-bazzi-5ab60ab4/">
+            <button onclick="location.href='https://www.linkedin.com/in/adam-bazzi-5ab60ab4/'" class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
                 <i class="lab la-linkedin-in"></i>
-              </a>
             </button>
           </div>
       </div>
@@ -38,35 +37,36 @@
       <div class="flex justify-center flex-wrap text-white-200">
         <img src="img/hhkbCommission.jpg" class="text-center self-auto rounded-sm transform scale-70 rotate-10">
       </div>
-      <div class="text-center text-2xl text-white-200 font-body">
+      <div class="text-center text-2xl text-white-200 font-saira lg:hidden block">
         Mobile Application Developer
       </div>
     </div>
+    </section>
 
         <!--FAB Button-->
-    <div class="fixed bottom-0 right-0 items-end pr-8 pb-8 ">
-      <div class="flex flex-col md:hidden items-center" id="navItems">
-          <div class="p-1">
+    <div class="fixed bottom-0 right-0 items-end pr-6 pb-6 ">
+      <div class="flex flex-col items-center block" id="navItems">
+          <div class=" pb-2">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm hover:underline">
               About
             </button>
           </div>
-          <div class="p-1">
+          <div class="pb-2">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold full transition duration-200 ease-in-out p-4 rounded-sm">
               Skills 
             </button>
           </div>
-          <div class="p-1">
+          <div class="pb-2">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
               Projects 
             </button>
           </div>
-          <div class="p-1">
+          <div class="pb-2">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
               Contact 
             </button>
           </div>
-          <div class="p-1 pb-16">
+          <div class="pb-16">
             <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm">
               Resume 
             </button>
@@ -74,11 +74,11 @@
       </div>
   </div>
 
-    <div class="fixed bottom-0 right-0 items-end pr-8 pb-8">
+    <div class="fixed bottom-0 right-0 items-end pr-6 pb-6">
         <div class="flex flex-col items-center">
-          <div class="p-1">
+          <div class="">
             <button class="bg-white-200 hover:bg-coral-100 text-white hover:text-white-200 font-bold p-4 text-center rounded-sm transition duration-200 ease-in-out" onclick="hideNavItems()">
-              Menu
+              <i class="las la-bars"></i>
             </button>
           </div>
       </div>
