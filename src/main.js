@@ -1,8 +1,8 @@
 function hideNavItems(){
     var navItems = document.getElementById("navItems");
-        if(navItems.classList.contains('md:hidden')){
-            navItems.classList.remove('md:hidden');
+        if(navItems.classList.contains('hidden')){
+            navItems.classList.remove('hidden');
         } else {
-            navItems.classList.add('md:hidden');
+            navItems.classList.add('hidden');
         }
     }
