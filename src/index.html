@@ -3,37 +3,39 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Adam Bazzi - Mobile App Developer</title>
+      <title>Adam Bazzi - Mobile Application Developer</title>
       <link rel="stylesheet" href="style.css">
       <!--Line Awesome CDN-->
       <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
       <link rel="icon" href="img/favIcon.svg" type="image/gif" sizes="16x16">
   </head>
-  <body class="bg-grey-500">
+  <body class="bg-grey-100">
 
-    <nav class="bg-grey-500 p-6">
-      <!--Top Right Corner Text-->
+    <nav class="bg-grey-100 p-6" id="navigationBar">
+      <!--Top Left Corner Text-->
       <div class="flex items-center justify-between">
           <p class="text-white-200 subpixel-antialiased text-2xl font-saira">
             ADAM BAZZI
           </p>
+        <!--Center Text-->
         <div class="text-center text-2xl text-white-200 lg:block hidden font-saira">
           Mobile Application Developer
         </div>
-          <div class="">
-            <button onclick="location.href='https://www.github.com/Abazzi'" class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
-                <i class="lab la-github-alt"></i>
-            </button>
-            <button onclick="location.href='https://www.linkedin.com/in/adam-bazzi-5ab60ab4/'" class="flex-none bg-white-200 text-grey-500 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
-                <i class="lab la-linkedin-in"></i>
-            </button>
-          </div>
+        <!--Top Right Corner Buttons-->
+        <div class="">
+          <button onclick="location.href='https://www.github.com/Abazzi'" class="flex-none bg-white-200 text-grey-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
+              <i class="lab la-github-alt"></i>
+          </button>
+          <button onclick="location.href='https://www.linkedin.com/in/adam-bazzi-5ab60ab4/'" class="flex-none bg-white-200 text-grey-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-2 text-2xl rounded-sm" type="button">
+              <i class="lab la-linkedin-in"></i>
+          </button>
+        </div>
       </div>
     </nav>
 
     <!--Profile Picture and Blurb-->
-    <section>
-    <div class="grid grid-cols-1 md:grid-cols-1 bg-grey-500">
+    <section id="profileHeader">
+    <div class="grid grid-cols-1 md:grid-cols-1 bg-grey-100">
       <div class="flex justify-center flex-wrap text-white-200">
         <img src="img/hhkbCommission.jpg" class="text-center self-auto rounded-sm transform scale-70 rotate-10">
       </div>
@@ -44,9 +46,9 @@
     </section>
 
     <!--About Me Section-->
-    <section>
-      <div class="flex mb-4 flex-wrap md:flex-row flex-col flex-grow">
-        <div class="flex-auto w-1/3 bg-white-200 font-saira text-2xl text-grey-500 text-center p-10 min-w-full lg:min-w-0">
+    <section id="aboutMe">
+      <div class="flex flex-wrap md:flex-row flex-col flex-grow">
+        <div class="flex-auto w-1/3 bg-white-200 font-saira text-4xl text-grey-100 text-center p-10 min-w-full lg:min-w-0">
           <p>
             About Me
           </p>
@@ -54,15 +56,12 @@
             <i class="lab la-old-republic text-4xl"></i>
           </p>
         </div>
-        <div class=" flex-auto w-2/3 bg-coral-100 text-center font-body text-1xl text-grey-500 p-2 min-w-full lg:min-w-0">
+        <div class="flex-auto w-2/3 bg-coral-200 text-center font-body text-1xl text-grey-100 p-2 min-w-full lg:min-w-0">
           <p class="p-1">
-            I am a mobile application developer based in Windsor, Ontario.
-          </p>
-          <p class="p-1">
-            I am a graduate from the Mobile Application Development program at St. Clair College
-          </p>
-          <p class="p-1">
-            I am hard working, easy to work with, and always looking to learn something new. I look forward to meeting new collegues and potential employers.
+            My name is Adam Bazzi, I am a junior developer from Windsor, Ontario. I have always been enamored with technology, starting with just playing video games on my home PC.
+             It wasn't until my cousin gave me a burned CD with Ubuntu 8.04 where I realized that computers could be used for other things then word documents and video games. Highschool
+             provided me with my first experience programming by learning Turing, Java, and Python. Once Highschool was done I entered the Mobile Application Development programming
+             at St. Clair College, there I was guided to where I am now today. I look forward to meeting new colleagues and potential employees.
           </p>
           <p class="p-1">
             I also really love a good cup of black coffee. <i class="las la-coffee text-2xl"></i>
@@ -74,31 +73,71 @@
       </div>
     </section>
 
+    <!--Skills Section-->
+    <section>
+      <div class="flex flex-wrap md:flex-row-reverse flex-grow flex-col-reverse">
+        <div class="flex-auto w-1/3 bg-white-200 font-saira text-4xl text-grey-100 text-center p-10 min-w-full lg:min-w-0">
+          <p>
+            My Skills 
+          </p>
+          <p>
+            <i class="lab la-old-republic text-4xl"></i>
+          </p>
+        </div>
+        <div class="flex-auto w-2/3">
+          <div class="flex flex-wrap">
+            <div class="flex-auto w-1/3 bg-coral-100 text-center font-body text-1xl text-white-200 p-2 min-w-full lg:min-w-0">
+              <p class="underline">Platforms</p>
+              <p class="">Android</p>
+              <p class="">iOS</p>
+              <p class="">Web</p>
+              <p class="">Unity</p>
+            </div>
+            <div class="flex-auto w-1/3 bg-coral-100 text-center font-body text-1xl text-white-200 p-2 min-w-full lg:min-w-0">
+              <p class="underline">Languages</p>
+              <p class=""> Java</p>
+              <p class="">PHP</p>
+              <p class="">Javascript</p>
+              <p class="">HTML/CSS</p>
+              <p class="">Swift</p>
+              <p class="">C#</p>
+            </div>
+            <div class="flex-auto w-1/3 bg-coral-100 text-center font-body text-1xl text-white-200 p-2 min-w-full lg:min-w-0">
+             <p class="underline">Frameworks</p>
+              <p class="">Laravel</p>
+              <p class="">Tailwind CSS</p>
+              <p class="">Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Navigation Buttons for FAB Button-->
     <div class="fixed bottom-0 right-0 items-end pr-6 pb-6 hidden" id="navItems">
       <div class="flex flex-col items-center">
-          <div class=" pb-2">
-            <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm border-coral-100 border-solid border-4">
-              About
+          <div class="pb-2">
+            <button class="flex-none bg-coral-300 text-white-200 hover:text-grey-100 font-bold transition p-4 rounded-sm" onclick="buttonTest()">
+              About 
             </button>
           </div>
           <div class="pb-2">
-            <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold full transition duration-200 ease-in-out p-4 rounded-sm border-coral-100 border-solid border-4">
+            <button class="flex-none bg-coral-300 text-white-200 hover:text-grey-100 font-bold transition p-4 rounded-sm" onclick="buttonTest()">
               Skills 
             </button>
           </div>
           <div class="pb-2">
-            <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm border-coral-100 border-solid border-4">
+            <button class="flex-none bg-coral-300 text-white-200 hover:text-grey-100 font-bold transition p-4 rounded-sm" onclick="buttonTest()">
               Projects 
             </button>
           </div>
           <div class="pb-2">
-            <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm border-coral-100 border-solid border-4">
+            <button class="flex-none bg-coral-300 text-white-200 hover:text-grey-100 font-bold transition p-4 rounded-sm" onclick="buttonTest()">
               Contact 
             </button>
           </div>
-          <div class="pb-16">
-            <button class="flex-none bg-white-200 text-coral-100 hover:bg-coral-100  hover:text-white-200 font-bold transition duration-200 ease-in-out p-4 rounded-sm border-coral-100 border-solid border-4">
+          <div class="pb-20">
+            <button class="flex-none bg-coral-300 text-white-200 hover:text-grey-100 font-bold transition p-4 rounded-sm" onclick="buttonTest()">
               Resume 
             </button>
           </div>
@@ -106,10 +145,10 @@
   </div>
 
     <!--Menu Fab Button-->
-    <div class="fixed bottom-0 right-0 items-end pr-6 pb-6">
+    <div class="fixed bottom-0 right-0 items-end pt-16 pr-6 pb-6">
         <div class="flex flex-col items-center">
-          <div class="">
-            <button class="bg-white-200 hover:bg-coral-100 text-white hover:text-white-200 font-bold p-4 text-center rounded-sm transition duration-200 ease-in-out border-coral-100 border-solid border-4" onclick="hideNavItems()">
+          <div class="pt-16">
+            <button class="bg-coral-300 hover:bg-coral-300 text-white hover:text-white-100 font-bold p-4 text-center rounded-sm transition duration-200 ease-in-out border-coral-300 border-solid border-4" onclick="hideNavItems()">
               <i class="las la-bars"></i>
             </button>
           </div>
