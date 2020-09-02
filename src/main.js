@@ -6,3 +6,7 @@ function hideNavItems(){
             navItems.classList.add('hidden');
         }
     }
+
+function buttonTest(){
+    alert('Holy crap this button works');
+}
