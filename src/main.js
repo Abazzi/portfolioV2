@@ -1,5 +1,5 @@
-function hideNavItems(){
-    var navItems = document.getElementById("navItems");
+function hideShowItems(id){
+    var navItems = document.getElementById(id);
         if(navItems.classList.contains('hidden')){
             navItems.classList.remove('hidden');
         } else {
