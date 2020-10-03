@@ -7,6 +7,6 @@ function hideShowItems(id){
         }
     }
 
-function buttonTest(){
-    alert('Holy crap this button works');
+function profileLiveDemo(){
+    alert('You are already here, I would offer you a cup of coffee but this is a website');
 }
