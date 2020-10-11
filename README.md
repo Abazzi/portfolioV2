@@ -7,7 +7,7 @@ The main image is not free to use, nor will I grant permission for usage.
 To get it up and running run the following commands
 
 ```
-npm build
+npm install
 
 npm run build:css
 ```
