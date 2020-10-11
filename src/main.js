@@ -8,5 +8,5 @@ function hideShowItems(id){
     }
 
 function profileLiveDemo(){
-    alert('You are already here, I would offer you a cup of coffee but this is a website');
+    alert('You are already here.');
 }
