@@ -45,7 +45,8 @@ module.exports = {
       fontFamily: {
         'code': ['Inconsolata', 'sans-serif'],
         'body': ['Manrope'],
-        'saira': ['Saira']
+        'saira': ['Saira'],
+        'monoglyceride':['Monoglyceride']
       },
 
       rotate: {

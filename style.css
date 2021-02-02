@@ -5,7 +5,13 @@
 
 @tailwind components;
 
+@font-face {
+    font-family: 'Monoglyceride';
+    src: local('Monoglyceride'), url(/src/fonts/monog___.ttf) format('ttf');
+}
+
 @tailwind utilities;
+
 
 .show {
     transition: opacity 400ms;
