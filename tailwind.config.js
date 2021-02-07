@@ -23,7 +23,12 @@ module.exports = {
         },
 
         magenta: {
-          100: '#fa255e'
+          100: '#fa255e',
+          200: '#b84c64'
+        },
+
+        matcha: {
+          100: '#a2a586'
         },
 
         pearlPink: {
@@ -51,8 +56,8 @@ module.exports = {
         grey: {
           100: '#383838',
           200: '#626262',
-          300: '#121212'
-
+          300: '#121212',
+          400: '#403e41'
         },
 
         coral: {
@@ -71,7 +76,7 @@ module.exports = {
         'code': ['Inconsolata', 'sans-serif'],
         'body': ['Manrope'],
         'saira': ['Saira'],
-        'monoglyceride':['Monoglyceride']
+        'monoglyceride':['"Monoglyceride"']
       },
 
       rotate: {
