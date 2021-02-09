@@ -28,7 +28,12 @@ module.exports = {
         },
 
         matcha: {
-          100: '#a2a586'
+          100: '#a2a586',
+          200: '#576b33'
+        },
+
+        mint: {
+          100: '#137a63'
         },
 
         pearlPink: {
