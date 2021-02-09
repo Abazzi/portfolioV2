@@ -10,9 +10,44 @@ module.exports = {
           900: '#343148'
         },
 
+        purpleGrey: {
+          100: '#3f3643',
+          200: '#49434c',
+          300: '#38323b',
+          400: '#252227'
+        },
+
         white: {
           100: '#F8EEE7',
           200: '#F4DECB'
+        },
+
+        magenta: {
+          100: '#fa255e',
+          200: '#b84c64'
+        },
+
+        matcha: {
+          100: '#a2a586',
+          200: '#576b33'
+        },
+
+        mint: {
+          100: '#137a63'
+        },
+
+        pearlPink: {
+          100: '#f8e5e5',
+          200: '#c39ea0'
+        },
+
+        eggshell: {
+          100: '#f0ead6'
+        },
+
+        navy: {
+          100: '#323b58',
+          200: '#333f57'
         },
 
         brown: {
@@ -26,8 +61,8 @@ module.exports = {
         grey: {
           100: '#383838',
           200: '#626262',
-          300: '#121212'
-
+          300: '#121212',
+          400: '#403e41'
         },
 
         coral: {
@@ -45,7 +80,8 @@ module.exports = {
       fontFamily: {
         'code': ['Inconsolata', 'sans-serif'],
         'body': ['Manrope'],
-        'saira': ['Saira']
+        'saira': ['Saira'],
+        'monoglyceride':['"Monoglyceride"']
       },
 
       rotate: {
